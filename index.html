@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="stylesheet" href="bootstrap-v4.0.0/css/bootstrap.min.css"> 
+					<link rel="stylesheet" type="text/css" href="css/mariposa-css.css"> 
+						<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+						<script src="bootstrap-v4.0.0/js/bootstrap.bundle.min.js"></script>
+						<script>
+						$(function(){  // $(document).ready shorthand
+  $('.monster').fadeIn('slow');
+});
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight()-100;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},1500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+						</script>
+					</head>
+					<body>
+					<div class="wrapper">
+						<div class="container-fluid mt-2 ">
+
+							<div class="top-ellipse">
+							</div>
+							<nav class="navbar navbar-expand-md bg-primary-color  ">
+								<!-- Brand Logo -->
+								<img src="mariposa-files/Logo/Logo Mariposa.png" class="img-fluid logo ">
+
+									<!-- Toggler/collapsibe Button -->
+									<button class="navbar-toggler  " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+										<span class="line"></span> 
+										<span class="line"></span> 
+										<span class="line" style="margin-bottom: 0;"></span>
+									</button>
+
+
+									<!-- Brand links -->
+									<div class="collapse navbar-collapse  justify-content-end " id="collapsibleNavbar" >
+										<ul class="navbar-nav ">
+											<li class="nav-item ">
+												<a class="nav-link mr-5 font-weight-bold" href="#wwa">Who We Are</a>
+											</li>
+											<li class="nav-item mr-5 font-weight-bold">
+												<a class="nav-link" href="#wwd">What We Do</a>
+											</li>
+											<li class="nav-item mr-5 font-weight-bold text-dark">
+												<a class="nav-link" href="#hdw">How Do We</a>
+											</li>
+										</ul>
+									</div>
+								</nav>
+								<div class="container  mt-5 ">
+									<div class="row ">
+										<div class="col-sm-7">
+											<h4><b>Welcome text Welcome text Welcome text</b></h4><br>
+												<h5 class="mb-5">
+Welcome text Welcome text Welcome text Welcome text Welcome text Welcome textWelcome text 
+ Welcome text Welcome text Welcome text Welcome text Welcome text Welcome text Welcome text Welcome text
+                                                </h5>
+
+												<button class="btn-get-in-touch btn mt-5" >Get In Touch</button>
+										</div>
+											<div class="col-sm-5">
+												<img src="mariposa-files/Image/home.svg" class=" home-img ">
+												</div>
+									</div>
+											<br><br>
+
+													<!---------------------- Who We Are Div------------------------>
+
+													<div class="row mt-5 hideme" id="wwa">
+														<div class="Who-We-Ar-Ellipse ">
+														</div>
+														<div class="col-sm-5">
+															<img src="mariposa-files/Image/who we are.svg" class=" home-img ">
+															</div>
+															<div class="col-sm-7 ">
+																<div class="text-right">
+																	<h4><b>Who We Are</b></h4>
+																	<h5>We are a boutique digital transformation consultancy and software development company 
+  that provides cutting edge engineering solutions, helping Fortune 500 companies and enterprise
+  clients untangle complex issue that always emerge during their evolution journey. Since 2007 we
+  have been a visionary and a reliable software engineering partner for world-class brands.</h5>
+																	<button class="btn-tolk-to-our-team btn mt-5" >Talk to our team</button>
+																</div>
+
+															</div>
+														</div><!--end of row-->
+														<!---------------------- What We Do------------------------>
+														<div class="row wwd hideme" id="wwd">
+															<div class="what-we-do-Ellipse ">
+															</div>
+															<div class="col-sm-7">
+																<h4><b>What We Do</b></h4><br><br>
+																		<h5>Always emerge during their digital evolution journey.Since 2007 we have been
+a visionary and a reliable software engineering partner for world-class brand.
+																		</h5>
+																		<!-------------- For services card---------------->
+																		<div class="row hideme">
+																			<div class="col-sm-5">
+																				<h6 class="text-center mt-2 mb-4 text-info">SERVICES</h6>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+Enterprise Software Development
+																						</h6>
+																						<p class="card-text text-muted">
+      Create complex enterprise software, ensure reliable 
+	  software integration,
+	  modernise your legacy system.
+																						</p>
+
+																					</div>
+																				</div>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+
+Mobile App Development
+                                                                                        </h6>
+																						<p class="card-text text-muted">
+      Create an impactful mobile app that fits
+your brand and industry within a shorter
+time frame.
+																						</p>
+
+																					</div>
+																				</div>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+Web App Development
+																						</h6>
+																						<p class="card-text text-muted">
+      Create an impactful mobile app that fits
+your brand and industry within a shorter
+time frame. 
+
+																						</p>
+
+																					</div>
+																				</div>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+UX/UI Design
+																						</h6>
+																						<p class="card-text text-muted">
+      Build the product you need on time with
+an experienced team that uses a clear
+and effective design process.
+																						</p>
+
+																					</div>
+																				</div>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+QA & Testing
+																						</h6>
+																						<p class="card-text text-muted">
+      Turn to our experts to perform
+comprehensive,multi-stage testing and
+auditing of your software.
+																						</p>
+
+																					</div>
+																				</div>
+																			</div>
+																			<!-------------- End of services card---------------->
+																			<div class="col-sm-2">
+
+																			</div>
+																			<!-------------- For technology card---------------->
+																			<div class="col-sm-5">
+																				<h6 class="text-center mt-2 mb-4 text-info">TECHNOLOGIES</h6>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+																						
+Back-end 
+                                                                                        </h6>
+																						<p class="card-text text-muted">
+      PHP,Python
+																						</p>
+
+																					</div>
+																				</div>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+Front-end
+																						</h6>
+																						<p class="card-text text-muted">
+     
+Create an impactful mobile app that fits
+your brand and industry within a shorter
+time frame.
+																						</p>
+
+																					</div>
+																				</div>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+Mobile Platform
+																						</h6>
+																						<p class="card-text text-muted">
+      Android,iOS
+																						</p>
+
+																					</div>
+																				</div>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+Database
+																						</h6>
+																						<p class="card-text text-muted">
+      
+      MongoDB,Postgress 
+																						</p>
+
+																					</div>
+																				</div>
+																				<div class="card mb-4">
+																					<div class="card-body">
+																						<h6 class="card-title text-center">
+Cloud Environment
+																						</h6>
+																						<p class="card-text text-muted">
+      AWS,Google,Azure
+																						</p>
+
+																					</div>
+																				</div>
+																			</div>
+
+																		</div>
+																		<!-------------- End of technologies card---------------->
+																	</div>
+																	<!--------------  what we do image div---------------->
+																	<div class="col-sm-5 ">
+																		<br><br>
+																				<img  src="mariposa-files/Image/what we do 1.svg" class=" home-img mt-5 mb-5" ><br><br><br><br>
+																									<img  src="mariposa-files/Image/what we do 2.svg" class=" home-img mt-5 " >
+																									</div>
+																								</div><!--end of row-->
+
+																								<!--------------  How Do We Row---------------->
+																								<div class="row mt-5 hideme" id="hdw">
+																									<div class="How-Do-We-Ellipse ">
+																									</div>
+																									<div class="col-sm-5 hdwi">
+
+																										<div class="row">
+																											<img src="mariposa-files/Image/how do we 1.svg" class="img-HowDoWe ">
+																											</div>
+																											<div class="row ">
+																												<div class="col-sm-12 text-right">
+																													<img src="mariposa-files/Image/how do we 2.svg" class=" img-HowDoWe mb-3 ">
+																													</div>
+
+																												</div>
+																												<div class="row">
+																													<img src="mariposa-files/Image/how do we 3.svg" class=" img-HowDoWe ">
+																													</div>
+
+
+
+
+																												</div>
+																												<div class="col-sm-7 ">
+																													<div >
+																														<h4 class="text-right mb-5"><b>How Do We</b></h4>
+																														<h5>We are a boutique digital transformation consultancy and software development company 
+  that provides cutting edge engineering solutions, helping Fortune 500 companies and enterprise
+  clients untangle complex issue that always emerge during their evolution journey. Since 2007 we
+  have been a visionary and a reliable software engineering partner for world-class brands.</h5>
+																														<div class="mt-5">
+																															<div class="row mb-4 ">
+																																<div class="col-sm-12 d-flex justify-content-center">
+																																	<div class="Process-Flow-Card ">Business Analysis</div>
+																																</div>
+																															</div>
+																															<div class="row mb-4">
+																																<div class="col-sm-1"></div>
+																																<div class="col-sm-5 d-flex justify-content-center ">
+																																	<div class="Process-Flow-Card res-p">Problem/Oppertunity identification</div>
+																																</div>
+																																<div class="col-sm-5 d-flex justify-content-center">
+																																	<div class="Process-Flow-Card">Screening</div>
+																																</div>
+																															</div> 
+																															<div class="row mb-4">
+																																<div class="col-sm-4 d-flex justify-content-center">
+																																	<div class="Process-Flow-Card res-p">Product Development</div>
+																																</div>
+																																<div class="col-sm-4 d-flex justify-content-center ">
+
+																																</div>
+																																<div class="col-sm-4 d-flex justify-content-center ">
+																																	<div class="Process-Flow-Card">Product Design</div>
+																																</div>
+																															</div>
+																															<div class="row mb-4">
+																																<div class="col-sm-1"></div>
+																																<div class="col-sm-5 d-flex justify-content-center">
+																																	<div class="Process-Flow-Card res-p">Product Testing</div>
+																																</div>
+																																<div class="col-sm-5 d-flex justify-content-center">
+																																	<div class="Process-Flow-Card">Product Development</div>
+																																</div>
+																															</div>
+																															<div class="row ">
+																																<div class="col-sm-12 d-flex justify-content-center">
+																																	<div class="Process-Flow-Card">Commercialization</div>
+																																</div>
+																															</div>
+																														</div>
+																													</div>
+																												</div>
+
+																											</div> <!--------------  end of How Do We Row---------------->
+																											<br><br>  <br><br>  <br><br>  <br><br>
+																																			<!--------------  Contact Us Row---------------->
+																																			<div class="row mt-5 hideme">
+																																				<div class="Contact-us-ellipse ">
+																																				</div>
+																																				<div class="col-sm-12">
+																																					<h4><b>Contact Us</b></h4><br>
+																																						<h5>Fell free to contact us at any time with any question!</h5>
+																																						<img src="mariposa-files/Icons/mail-outline.svg" class=" icon">     <b>business@mariposadigital.in</b>
+																																						</div>
+																																					</div>   <!--------------end of   Contact Us Row---------------->
+																																					<div class="row mt-5 hideme">
+
+																																						<div class="col-sm-3">
+
+																																						</div>
+																																						<div class="col-sm-5">
+																																							<form>
+																																								<div class="form-group">
+																																									<label for="formGroupExampleInput" class="text-muted">Your Name </label>
+																																									<input type="text" class="form-control form-control-sm" id="" placeholder="">
+																																									</div>
+																																									<div class="form-group">
+																																										<label for="formGroupExampleInput2" class="text-muted">Your Mob #</label>
+																																										<input type="text" class="form-control form-control-sm" id="" placeholder="">
+																																										</div>
+																																										<div class="form-group">
+																																											<label for="formGroupExampleInput2" class="text-muted">Your Email </label>
+																																											<input type="text" class="form-control form-control-sm" id="" placeholder="">
+																																											</div>
+																																											<div class="form-group">
+																																												<label for="formGroupExampleInput2" class="text-muted">Your Message </label>
+																																												<textarea type="text" rows="5" class="form-control form-control-sm" id="" placeholder=""></textarea>
+																																											</div>
+																																											<button type="button" class="btn btn-outline-primary float-right btn-submit mt-2">Submit</button>
+																																										</form>
+																																									</div>
+																																									<div class="col-sm-4">
+																																										<img src="mariposa-files/Image/contact us.svg" class=" home-img mt-4 ">
+																																										</div>
+																																									</div>   <!------------------------------>
+																																									<!-------------Footer----------------->
+
+																																								</div><!--end of container-->
+																																							</div><!--end of container fluid-->
+																																						</div>
+																																						<div class="container-fluid footer text-white pc">
+																																							<div class="row mt-5 p-2 hideme">
+																																								<div class="col-sm-1"></div>
+																																								<div class="col-sm-2 col-6 text-center">
+																																									<b>Services</b><br><br>
+																																											<p>Service1</p>
+																																											<p>Service1</p>
+																																											<p>Service1</p>
+																																											<p>Service1</p>
+																																											<p>Service1</p>
+																																											<p>Service1</p>
+																																										</div>
+																																										<div class="col-sm-2 col-6 text-center">
+																																											<b>Technologies</b><br><br>
+																																													<p>Service1</p>
+																																													<p>Service1</p>
+																																													<p>Service1</p>
+																																													<p>Service1</p>
+																																													<p>Service1</p>
+																																													<p>Service1</p>
+																																												</div>
+																																												<div class="col-sm-2 col-6 text-center">
+																																													<b>Industries</b><br><br>
+																																															<p>Service1</p>
+																																															<p>Service1</p>
+																																															<p>Service1</p>
+																																															<p>Service1</p>
+																																															<p>Service1</p>
+																																															<p>Service1</p>
+																																														</div>
+																																														<div class="col-sm-2 col-6">
+																																															<b>About Us</b><br>
+																																																<b> Term & Conditions</b><br>
+																																																	<b>Privacy & Policy</b><br>
+
+																																																	</div>
+																																																	<div class="col-sm-2 text-center">
+																																																		<b>Follow Us</b><br><br>
+																																																				<img  src="mariposa-files/Logo/logo-facebook.svg" class="icon-social mr-3">
+																																																					<img  src="mariposa-files/Logo/logo-instagram.svg" class="icon-social mr-3">
+																																																						<img  src="mariposa-files/Logo/logo-linkedin.svg" class="icon-social mr-3">
+																																																							<img  src="mariposa-files/Logo/logo-twitter.svg" class="icon-social mr-0"><br><br>
+																																																										<img src="mariposa-files/Icons/mail-outline.svg" class=" icon-social">   <br>  <b>business@mariposadigital.in</b>
+
+																																																											</div></div>
+<div class="row hideme">
+<div class="col-sm-12 text-center">
+<small >Copyright @ Mariposa Digital Pvt. Ltd. all right reserved</small>
+</div>
+</div>
+																																																									
+																																																										
+																																																										
+																																																									</div>
+																																																									
+</div>
+																																																								</body>
+																																																							</html>

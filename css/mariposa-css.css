@@ -1,0 +1,265 @@
+body{
+	font-family:Roboto;
+	}
+	
+.hideme
+{
+    opacity:0;
+}
+
+.wrapper{
+	overflow-x:hidden;
+	position: relative;
+}
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: lightblue;
+    border:none;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+.logo{
+	width:auto;
+	height:40px;
+}
+bg-primary-color
+{
+	background-color: #1686D7;
+}
+.nav-link{
+	
+	color:black;
+}
+                 /*Ellipse*/
+.top-ellipse
+{
+position: absolute;
+width: 487px;
+height: 487px;
+right: -105px;
+top: -127px;
+border-radius:50%;
+background: linear-gradient(180.08deg, rgba(0, 176, 255, 0.35) 40.56%, rgba(86, 204, 242, 0) 74.1%);
+opacity: 0.5;
+
+}
+.Who-We-Ar-Ellipse {
+	position: absolute;
+width: 360px;
+height: 360px;
+right: -61px;
+top: 470px;
+border-radius:50%;
+background: linear-gradient(223.5deg, rgba(101, 190, 45, 0) 28.63%, rgba(101, 190, 45, 0.52) 73.91%);
+opacity: 0.5;
+
+}
+@media only screen and (max-width: 600px) {
+	.Who-We-Ar-Ellipse {
+	position: absolute;
+width: 360px;
+height: 360px;
+right: -61px;
+top: 1000px;
+border-radius:50%;
+background: linear-gradient(223.5deg, rgba(101, 190, 45, 0) 28.63%, rgba(101, 190, 45, 0.52) 73.91%);
+opacity: 0.5;
+
+}
+}
+
+.what-we-do-Ellipse{
+	position: absolute;
+width: 360px;
+height: 360px;
+left: -38px;
+top: 793px;
+border-radius:50%;
+background: linear-gradient(226.03deg, rgba(251, 190, 190, 0) 36.57%, #FBBEBE 91.73%);
+transform: rotate(-90deg);
+
+
+}
+@media only screen and (max-width: 600px) {
+	.what-we-do-Ellipse{
+		
+	position: absolute;
+width: 360px;
+height: 360px;
+left: -38px;
+top: 1433px;
+border-radius:50%;
+background: linear-gradient(226.03deg, rgba(251, 190, 190, 0) 36.57%, #FBBEBE 91.73%);
+transform: rotate(-90deg);
+
+
+}
+}
+.How-Do-We-Ellipse{
+	position: absolute;
+width: 360px;
+height: 360px;
+left: 992px;
+top: 1723px;
+border-radius:50%;
+background: linear-gradient(230.96deg, rgba(86, 204, 242, 0) 38.75%, #56CCF2 90.95%);
+
+}
+@media only screen and (max-width: 600px) {
+	.How-Do-We-Ellipse{
+	position: absolute;
+width: 360px;
+height: 360px;
+left:0px;
+top: 4080px;
+border-radius:50%;
+background: linear-gradient(230.96deg, rgba(86, 204, 242, 0) 38.75%, #56CCF2 90.95%);
+opacity:0.5;
+
+
+}
+}
+.Contact-us-ellipse{
+	position: absolute;
+width: 360px;
+height: 360px;
+left: -88px;
+top: 2520px;
+border-radius:50%;
+background: linear-gradient(233.64deg, #6C63FF -2.64%, rgba(108, 99, 255, 0) 68.41%);
+
+}
+@media only screen and (max-width: 600px) {
+	.Contact-us-ellipse{
+	position: absolute;
+width: 360px;
+height: 360px;
+left: -88px;
+top: 5230px;
+border-radius:50%;
+background: linear-gradient(233.64deg, #6C63FF -2.64%, rgba(108, 99, 255, 0) 68.41%);
+overflow:hidden;
+}
+}
+@media only screen and (max-width: 600px) {
+	.res-p{
+	margin-bottom:25px;
+}
+
+.wwd {
+	margin-top:35px;
+	
+}
+.hdwi{
+	margin-bottom:30px;
+}
+
+
+}
+
+.home-img
+{
+	
+  
+  width: 100%;
+  height: auto;
+
+}
+.img-HowDoWe{
+	height:auto;
+	width:50%;
+}
+         /*Buttons*/
+.btn-get-in-touch
+{
+	width: 200px;
+height: 40px;
+border-radius: 10px;
+background-color: #1686D7;
+outline:none;
+color:white;
+
+
+}
+.btn-submit
+{
+	width: 200px;
+height: 40px;
+border-radius: 10px;
+}
+.btn-tolk-to-our-team{
+	width: 200px;
+height: 40px;
+border-radius: 10px;
+background-color:  #FFFFFF;
+color:#1686D7;
+
+border: 1px Solid #1686D7;
+
+
+}
+          /*Card*/
+.card{
+	border: 1px solid #1686D7;
+box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+height:98px;
+
+
+}
+.card-title{
+	font-family: Roboto;
+font-weight:bold;
+font-size: 12px;
+
+
+}
+.card-text{
+	font-family: Roboto;
+font-style:regular;
+font-size: 11px;
+text-align:center;
+	
+
+
+}
+.Process-Flow-Card{
+	/* Process Flow Card */
+width: 200px;
+height: 50px;
+border-radius: 5px;
+background-color:  #1686D7;
+box-shadow: -4px -4px 5px rgba(0, 0, 0, 0.25);
+color:white;
+text-align:center;
+vertical-align: middle;
+line-height: 50px;
+ 
+
+}
+    /*Icons*/
+.icon{
+	height:auto;
+	width:22px;
+	
+}
+.icon-social{
+	height:auto;
+	width:30px;
+	
+}
+
+       /*Footer*/
+.footer{
+	background-color:#1686D7;
+	font-family: Roboto;
+font-style: Medium;
+font-size: 14px
+
+}
