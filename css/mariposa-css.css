@@ -2,10 +2,7 @@ body{
 	font-family:Roboto;
 	}
 	
-.hideme
-{
-    opacity:0;
-}
+
 
 .wrapper{
 	overflow-x:hidden;
