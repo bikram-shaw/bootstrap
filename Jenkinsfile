@@ -15,7 +15,7 @@ node('staging'){
         }
         stage('Deploy Website')
         {
-            sh 'sudo docker rm -f biku8293/mariposa'
+            sh 'sudo docker rmi -f biku8293/mariposa'
                 sh 'sudo docker run -it -p 80:80 -d biku8293/mariposa'
             
         }
