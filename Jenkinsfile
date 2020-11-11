@@ -26,7 +26,7 @@ node('staging'){
         {
                 //sh 'sudo docker rm -f biku8293/mariposa'
                 //sh 'sudo docker rm -f $(sudo docker ps -a -q)'
-                sh 'sudo docker run -it -p 82:80 -d biku8293/mariposa'
+                sh 'sudo docker run -it -p 82:80 -d --name mariposa biku8293/mariposa'
                 echo 'successfully deploy'
             
         }
