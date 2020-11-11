@@ -10,7 +10,7 @@ node('staging'){
         stage('Build Docker Image')
         {
        
-                sh 'docker build /home/ubuntu/jenkins/workspace/mariposa_pipeline -t biku8293/mariposa .'
+                sh 'sudo docker build /home/ubuntu/jenkins/workspace/mariposa_pipeline -t biku8293/mariposa .'
             
         }
         stage('Push Docker Image')
@@ -19,7 +19,7 @@ node('staging'){
      sh "docker login -u biku8293 -p ${DockerHubPwd}"
         }
                
-                sh 'docker push biku8293/mariposa'
+                sh 'sudo docker push biku8293/mariposa'
             
         }
         stage('Run Container On Staging Server')
