@@ -29,6 +29,6 @@ node('staging'){
                 sh 'sudo docker run -it -p 80:80 -d biku8293/mariposa'
                 echo 'successfully deploy'
             
-        }*/
+        }
     
 }
