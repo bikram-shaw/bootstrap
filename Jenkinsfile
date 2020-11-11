@@ -16,10 +16,10 @@ node{
         stage('Push Docker Image')
         {
                 withCredentials([string(credentialsId: 'docker_hub_pwd', variable: 'DockerHubPwd')]) {
-     sh "sudo docker login -u biku8293 -p ${DockerHubPwd}"
+     sh "docker login -u biku8293 -p ${DockerHubPwd}"
         }
                
-                sh 'sudo docker push biku8293/mariposa:1.0.0'
+                sh 'docker push biku8293/mariposa:1.0.0'
             
         }
         /*stage('Run Container On Staging Server')
