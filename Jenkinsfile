@@ -10,7 +10,7 @@ node('staging'){
         stage('Build Docker Image')
         {
        
-                sh 'sudo docker build /home/ubuntu/jenkins/workspace/mariposa_pipeline -t biku8293/mariposa .'
+                sh 'sudo docker build /home/ubuntu/jenkins/workspace/mariposa_pipeline -t biku8293/mariposa'
             
         }
         stage('Push Docker Image')
