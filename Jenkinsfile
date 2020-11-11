@@ -19,7 +19,7 @@ node{
      sh "docker login -u biku8293 -p ${DockerHubPwd}"
         }
                
-                sh 'docker push biku8293/mariposa:1.0.0'
+                sh 'docker push biku8293/mariposa:2.0.0'
             
         }
         /*stage('Run Container On Staging Server')
