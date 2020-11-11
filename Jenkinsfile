@@ -10,7 +10,7 @@ node(){
         stage('Build Docker Image')
         {
        
-                sh 'sudo docker build -t biku8293/mariposa:2.0.0'
+                sh 'sudo docker build -t biku8293/mariposa:2.0.0 .'
             
         }
         stage('Push Docker Image')
