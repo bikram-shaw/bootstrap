@@ -1,4 +1,4 @@
-node{
+node('staging'){
      
    
         stage('SCM Checkout')
@@ -10,7 +10,7 @@ node{
         stage('Build Docker Image')
         {
        
-                sh 'docker build -t biku8293/mariposa .'
+                sh 'docker build /home/ubuntu/jenkins/workspace/mariposa_pipeline -t biku8293/mariposa .'
             
         }
         stage('Push Docker Image')
@@ -22,7 +22,7 @@ node{
                 sh 'docker push biku8293/mariposa'
             
         }
-        /*stage('Run Container On Staging Server')
+        stage('Run Container On Staging Server')
         {
                 //sh 'sudo docker rm -f biku8293/mariposa'
                 sh 'sudo docker rm -f $(sudo docker ps -a -q)'
