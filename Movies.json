@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "6471f8ab0c597ff2864ac374"
+  },
+  "Description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\".",
+  "MovieName": "3 idiots",
+  "Rating": 3,
+  "TheatreDetails": [
+    {
+      "TheatreName": "Inox",
+      "Seats": 2,
+      "TheatreLocation": "kolkata",
+      "Status": "Sold Out"
+    },
+    {
+      "TheatreName": "Carnival",
+      "Seats": 30,
+      "TheatreLocation": "kolkata",
+      "Status": "Book Asap"
+    }
+  ],
+  "Thumbnail": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202003/3_idiots.jpeg"
+},{
+  "_id": {
+    "$oid": "647224bb0c597ff2864ac380"
+  },
+  "Description": "Two friends are searching for their long lost companion. They revisit their college days and recall the memories of their friend who inspired them to think differently, even as the rest of the world called them \"idiots\".",
+  "MovieName": "Test ",
+  "Rating": 2,
+  "TheatreDetails": [
+    {
+      "TheatreName": "Inox",
+      "TheatreLocation": "Durgapur",
+      "Seats": 300,
+      "Status": "Sold Out"
+    },
+    {
+      "TheatreName": "Carnival",
+      "TheatreLocation": "kolkata",
+      "Seats": 30,
+      "Status": "Book Asap"
+    }
+  ],
+  "Thumbnail": "https://hips.hearstapps.com/hmg-prod/images/hbz-comedy-movies-index2-1544471511.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+},{
+  "_id": {
+    "$oid": "647886d6f29c455252f8826f"
+  },
+  "Description": "Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.",
+  "MovieName": "Fast X",
+  "Rating": 5,
+  "TheatreDetails": [
+    {
+      "TheatreName": "PVR",
+      "TheatreLocation": "Durgapur",
+      "Seats": 300,
+      "Status": "Sold Out"
+    },
+    {
+      "TheatreName": "Carnival",
+      "TheatreLocation": "kolkata",
+      "Seats": 30,
+      "Status": "Book Asap"
+    }
+  ],
+  "Thumbnail": "https://i.ytimg.com/vi/aOb15GVFZxU/maxresdefault.jpg"
+},{
+  "_id": {
+    "$oid": "64788741f29c455252f88271"
+  },
+  "Description": "Still reeling from the loss of Gamora, Peter Quill rallies his team to defend the universe and one of their own - a mission that could mean the end of the Guardians if not successful.",
+  "MovieName": "Guardians of the Galaxy Vol. 3",
+  "Rating": 4,
+  "TheatreDetails": [
+    {
+      "TheatreName": "Inox",
+      "Seats": 2,
+      "TheatreLocation": "kolkata",
+      "Status": "Sold Out"
+    },
+    {
+      "TheatreName": "Carnival",
+      "Seats": 30,
+      "TheatreLocation": "kolkata",
+      "Status": "Book Asap"
+    }
+  ],
+  "Thumbnail": "https://www.tamilanjobs.com/wp-content/uploads/2023/04/p17845781_v_h11_aa.jpg"
+},{
+  "_id": {
+    "$oid": "64788791f29c455252f88273"
+  },
+  "Description": "Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.",
+  "MovieName": "Avatar: The Way of Water",
+  "Rating": 3,
+  "TheatreDetails": [
+    {
+      "TheatreName": "Inox",
+      "Seats": 2,
+      "TheatreLocation": "kolkata",
+      "Status": "Sold Out"
+    },
+    {
+      "TheatreName": "Carnival",
+      "Seats": 30,
+      "TheatreLocation": "kolkata",
+      "Status": "Book Asap"
+    }
+  ],
+  "Thumbnail": "https://easternmirrornagaland.com/wp-content/uploads/2023/01/Avatar-The-Way-Of-Water-is-highest-grossing-Hollywood-movie-in-India.jpg"
+},{
+  "_id": {
+    "$oid": "64788819f29c455252f88276"
+  },
+  "Description": "A twisted tale of two estranged sisters whose reunion is cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
+  "MovieName": "Evil Dead Rise",
+  "Rating": 4,
+  "TheatreDetails": [
+    {
+      "TheatreName": "Inox",
+      "Seats": 2,
+      "TheatreLocation": "kolkata",
+      "Status": "Sold Out"
+    },
+    {
+      "TheatreName": "Carnival",
+      "Seats": 30,
+      "TheatreLocation": "kolkata",
+      "Status": "Book Asap"
+    }
+  ],
+  "Thumbnail": "https://www.pinkvilla.com/english/images/2023/04/46070344_evil-dead-rises-india-box-office_1280*720.jpg"
+}]
