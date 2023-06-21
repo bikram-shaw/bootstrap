@@ -1,0 +1,48 @@
+[{
+  "_id": {
+    "$oid": "6474e39dce03650ebb782c46"
+  },
+  "FirstName": "Demo",
+  "LastName": "Demo",
+  "Email": "demo@gmail.com",
+  "Role": "User",
+  "LoginId": "demo1234",
+  "Mobile": "8293253017",
+  "Password": "$2a$11$02gIGvdNoibcGx.QcxO5FOsrMVlKPfS.7GzvUOYn4Ibf0GE.MkTvO"
+},
+{
+  "_id": {
+    "$oid": "6474e41bce03650ebb782c47"
+  },
+  "FirstName": "string",
+  "LastName": "string",
+  "Email": "string",
+  "Role": "User",
+  "LoginId": "string",
+  "Mobile": "string",
+  "Password": "$2a$11$shQMQnnnw827n5zmNNsbzOnHvWronr/dUwcLB3JgSnEfoi5HHNVuC"
+},
+{
+  "_id": {
+    "$oid": "6474e4a4aa43513658cbef1b"
+  },
+  "FirstName": "Demo",
+  "LastName": "Demo",
+  "Email": "demo@admin.com",
+  "Role": "Admin",
+  "LoginId": "admin1234",
+  "Mobile": "8293253017",
+  "Password": "$2a$11$tZA7NeeqIujhAS5CKfrLReKhuosE8MlLaLYpFvoA3m9DGcfQlabZS"
+},
+{
+  "_id": {
+    "$oid": "6482ffc6f85f92df5fcd17fd"
+  },
+  "FirstName": "Bikram",
+  "LastName": "Shaw",
+  "Email": "shawbnk@gmail.com",
+  "Role": "User",
+  "LoginId": "biku1234",
+  "Mobile": "8293253017",
+  "Password": "$2a$11$37UtClhCHzoZMSAx4Vhkduc7f4CAgI52w2vD9De9IKn.x6Ww.jasy"
+}]
